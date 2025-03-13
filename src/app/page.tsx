@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home() {
 
   const title = "Portfolio DevDaniels";
-  const firstAlinea = " I'm a DevOps developer specializing in Azure, C#, AI & React (TypeScript)";
+  const firstAlinea = " I'm a DevOps developer specializing in Azure, C#, AI & React (TypeScript). test.";
 
   return (
     <Container maxWidth="md" sx={{ textAlign: "center", mt: 10 }}>
