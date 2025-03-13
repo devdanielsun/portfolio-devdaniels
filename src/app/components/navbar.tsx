@@ -6,8 +6,10 @@ export default function Navbar() {
   return (
     <AppBar position="static">
       <Toolbar>
-        <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          Portfolio DevDaniels
+        <Typography variant="h6" sx={{ flexGrow: 1 }} >
+            <Button color="inherit" component={Link} href="/">
+                Portfolio DevDaniels
+            </Button>
         </Typography>
         <Button color="inherit" component={Link} href="/">Home</Button>
         <Button color="inherit" component={Link} href="/projects">Projects</Button>
